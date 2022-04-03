@@ -1,0 +1,101 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>56e91f00-a081-4f6d-a050-6900305b6782</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>PythonApplication1.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonApplication1</Name>
+    <RootNamespace>PythonApplication1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="PythonApplication1.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assassin\" />
+    <Folder Include="detoate\" />
+    <Folder Include="detoate\assassin\" />
+    <Folder Include="detoate\monopoly\" />
+    <Folder Include="monopoly\" />
+    <Folder Include="testare\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assassin\imagine.jpg" />
+    <Content Include="detoate\assassin\download %282%29.jpg" />
+    <Content Include="detoate\assassin\download %283%29.jpg" />
+    <Content Include="detoate\assassin\download %284%29.jpg" />
+    <Content Include="detoate\assassin\download %285%29.jpg" />
+    <Content Include="detoate\assassin\download %286%29.jpg" />
+    <Content Include="detoate\assassin\download %287%29.jpg" />
+    <Content Include="detoate\assassin\download %288%29.jpg" />
+    <Content Include="detoate\assassin\download.jpg" />
+    <Content Include="detoate\assassin\images %281%29.jpg" />
+    <Content Include="detoate\assassin\images %282%29.jpg" />
+    <Content Include="detoate\assassin\images %283%29.jpg" />
+    <Content Include="detoate\assassin\images %284%29.jpg" />
+    <Content Include="detoate\assassin\images %285%29.jpg" />
+    <Content Include="detoate\assassin\images.jpg" />
+    <Content Include="detoate\assassin\imagine.jpg" />
+    <Content Include="detoate\monopoly\download %281%29.jpg" />
+    <Content Include="detoate\monopoly\download %282%29.jpg" />
+    <Content Include="detoate\monopoly\download %283%29.jpg" />
+    <Content Include="detoate\monopoly\download %284%29.jpg" />
+    <Content Include="detoate\monopoly\download %285%29.jpg" />
+    <Content Include="detoate\monopoly\download %286%29.jpg" />
+    <Content Include="detoate\monopoly\download %289%29.jpg" />
+    <Content Include="detoate\monopoly\images %281%29.jpg" />
+    <Content Include="detoate\monopoly\images %282%29.jpg" />
+    <Content Include="detoate\monopoly\images %283%29.jpg" />
+    <Content Include="detoate\monopoly\images %284%29.jpg" />
+    <Content Include="detoate\monopoly\images %285%29.jpg" />
+    <Content Include="detoate\monopoly\images %286%29.jpg" />
+    <Content Include="detoate\monopoly\images %288%29.jpg" />
+    <Content Include="detoate\monopoly\images.jpg" />
+    <Content Include="monopoly\download %281%29.jpg" />
+    <Content Include="monopoly\download %282%29.jpg" />
+    <Content Include="monopoly\download %283%29.jpg" />
+    <Content Include="monopoly\download %284%29.jpg" />
+    <Content Include="monopoly\download %285%29.jpg" />
+    <Content Include="monopoly\download %286%29.jpg" />
+    <Content Include="monopoly\download %289%29.jpg" />
+    <Content Include="monopoly\images %281%29.jpg" />
+    <Content Include="monopoly\images %282%29.jpg" />
+    <Content Include="monopoly\images %283%29.jpg" />
+    <Content Include="monopoly\images %284%29.jpg" />
+    <Content Include="monopoly\images %285%29.jpg" />
+    <Content Include="monopoly\images %286%29.jpg" />
+    <Content Include="monopoly\images %288%29.jpg" />
+    <Content Include="monopoly\images.jpg" />
+    <Content Include="testare\1.PNG" />
+    <Content Include="testare\12.PNG" />
+    <Content Include="testare\14.PNG" />
+    <Content Include="testare\1412.PNG" />
+    <Content Include="testare\16.PNG" />
+    <Content Include="testare\2.PNG" />
+    <Content Include="testare\3.PNG" />
+    <Content Include="testare\4.PNG" />
+    <Content Include="testare\5.PNG" />
+    <Content Include="testare\6.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
